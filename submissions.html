@@ -73,7 +73,9 @@
             <input type="file" id="exampleInputFile">
 
           </div>
-          <a href="sent.html"><button type="submit" class="btn btn-default">Upload design</button></a>
+<button type="button" id="myStateButton1" data-complete-text="Thanks for the submission!" class="btn btn-primary" autocomplete="off">
+  Send it 
+</button>
       </div>
 
       <div class="col-lg-6">
@@ -84,10 +86,28 @@
           <input type="file" id="exampleInputFile">
 
         </div>
-        <a href="sent.html"> <button type="submit" class="btn btn-default">Upload design</button></a>
+<button type="button" id="myStateButton2" data-complete-text="Thanks for the submission!" class="btn btn-primary" autocomplete="off">
+  Send it
+</button>
     </div>
         
       </div>
+
+      <div class="row">
+        <div class="col-lg-12">
+          <h2> Have any comments or suggestions? </h2>
+          <h3> Let us know </h3>
+          <textarea class="form-control" rows="3"></textarea>
+          <button type="button" id="myStateButton3" data-complete-text="Thanks for letting us know!" class="btn btn-primary" autocomplete="off">
+  submit your comments 
+</button>
+        <br><br>
+        </div>
+
+
+
+
+
 </div>
 </div>
 </div>
@@ -116,5 +136,21 @@
     <script src="js/ie10-viewport-bug-workaround.js"></script>
 
     <script src="offcanvas.js"></script>
+
+     <script>
+      $('#myStateButton1').on('click', function () {
+        $(this).button('complete') // button text will be "finished!"
+      })
+    </script>
+         <script>
+      $('#myStateButton2').on('click', function () {
+        $(this).button('complete') // button text will be "finished!"
+      })
+    </script>
+         <script>
+      $('#myStateButton3').on('click', function () {
+        $(this).button('complete') // button text will be "finished!"
+      })
+    </script>
   </body>
 </html>
