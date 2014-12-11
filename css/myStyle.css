@@ -1,0 +1,174 @@
+@import url(http://fonts.googleapis.com/css?family=Rock+Salt|Permanent+Marker|Monda|Signika|Bangers|Roboto+Slab|Bitter|Montserrat);
+
+
+#weekFeature{
+	background-position: center;
+	background-size: 100%;
+	/*border-style: solid;
+    border-width: 13px;
+  	border-radius: 3px;
+  	margin-bottom: 20px;
+  	margin-top: 20px;*/
+
+
+
+}
+
+body{
+
+}
+
+.navbar, .navbar-nav li, .navbar a{
+	font-family: 'Bangers';
+	letter-spacing: 2px;
+
+
+
+
+}
+
+h2  {
+	font-family: 'Bangers';
+	color: #3e59a3;
+	letter-spacing: 2px;
+
+}
+
+h6 {
+	font-size: 13pt;
+	font-family: 'Montserrat';
+	line-height: 26px;
+}
+
+.banner{
+	text-align: center;
+	display: inline;
+	float: center;
+}
+
+
+h1{
+	font-family: 'Bangers';
+	font-size: 33pt;
+	color: #cc3333;
+	letter-spacing: 3px;
+}
+
+p{
+	font-family: 'Montserrat';
+}
+
+img{
+	width: 100%;
+
+}
+
+h3, h4, h5 {
+	font-family: 'Bangers';
+	letter-spacing: 1px;
+}
+
+.icons{
+	border-radius: 100px;
+	margin-bottom: 30px;
+}
+
+#crew{
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+#header{
+	background-image: url(images/week1.jpg);
+}
+
+#borderedBox{
+	/*border-style: solid;
+    border-width: 8px;
+    border-radius: 3px;
+    height: 500px;*/
+
+}
+
+/*.col-md-4{
+	width: 32%;
+	margin: .53%;
+}*/
+
+
+.footer{
+	height: 200px;
+	background-color: #a91f1f;
+	width: 100%;
+	text-align: center;
+	color: white;
+}
+
+#weekly{
+	background-position: center;
+	background-size: 100%;
+}
+
+.strips img {
+	width: 
+	overflow: hidden;
+}
+
+.crew img{
+	width: 200px;
+	height: 200px;
+}
+
+
+a{
+	color: #cc3333;
+}
+
+a:hover{
+	color: #a91f1f;
+	text-decoration: none;
+}
+
+.footer a:hover{
+	color: white;
+}
+
+.fa{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+
+.btn-primary{
+	background-color: #cc3333;
+	color: white;
+	border-radius: 100px;
+	border-color: #a91f1f;
+	font-family: 'Bangers';
+	font-size: 20pt;
+	width: 100%;
+
+}
+
+.btn-primary:hover{
+	background-color: #3e59a3;
+}
+
+
+.highlight{
+	color: #cc3333;
+}
+
+
+.form-group{
+	font-family: 'Montserrat';
+	font-weight: none;
+}
+
+#comic1 img{
+	height: 150px;
+	overflow: hidden;
+}
+
+plase dont be dead
